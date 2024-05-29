@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./snappy_logo_2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/16ff017447.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/script.js/2.5.9/script.min.js" 
+    integrity="sha512-nQUxc8VAJRo3Q01idWkxWJADjVoRenyGNrUy6+ighjjZg/obzeII29QiMMVfYpCEVQyFyWEiOEw4uhJqX9/J6g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Reto: Funciones</title>
+</head>
+<body>
+    <header>
+        <img src="./snappy_logo_blanco.png" alt="Snappy Blog - Snappy Logo @clipartmax.com">
+    </header>
+    <form action="https://formspree.io/f/mbjggnvj" method="post">
+        <!-- <script src="./index.js"></script> -->
+        <p>Welcome.<small> Please login.</small></p>    
+        <label for="name">
+            <input id="name" type="name" name="name" placeholder="Username" required>
+        </label>
+        <label for="password">
+            <input id="password" type="password" name="password" placeholder="Password" required>
+        </label>
+        <!-- <a href="./form_con_exito.html"> -->
+            <button type="button" onclick="submitForm()">
+                SIGN IN   
+            </button>
+        <!-- </a> -->
+        <div>
+            <div id="forgot_pass">
+                <!-- <a href="#">&#128274;</a> -->
+                <a href="#">
+                    <i class="fa-sharp fa-solid fa-lock"></i>
+                </a>
+                <!-- <a href="#"></a> -->
+                <!-- <a href="https://fontawesome.com/icons/lock?f=sharp&s=solid">
+                    <img src="https://fontawesome.com/icons/lock?f=sharp&s=solid">
+                </a> -->
+                <!-- <a href="#">
+                    <i class="fa-solid fa-lock"></i>
+                </a> -->
+                <a href="#">Forgot Password?</a> 
+                <span id="separador">|</span>
+            <span id="sign_up">    
+            Don't have an account yet?
+            <a href="#">Sign Up</a>
+            </span>
+        </div>
+    </form>
+</body>
+</html>

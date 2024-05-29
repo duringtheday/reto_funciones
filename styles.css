@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body {
+    width: 100%;
+    min-height: 50vh;
+}
+
+body {
+    top: 0;
+    margin: 0;
+    background: linear-gradient(to top, #c43c32, #e95a4a) no-repeat;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+header img {
+    /* position: absolute; */
+    margin: 0 auto;
+
+    padding: 1rem ;
+    width: 120px;
+    height: auto;
+}
+
+form {
+    margin: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+form p {
+    top: 0;
+    left: 0;
+    padding-bottom: 5px;
+    display: block;
+    transform: translateX(-53px);
+    letter-spacing: 0.05rem;
+
+}
+
+form #name, form #password {
+    margin: 0.2rem;
+    padding: 1rem;
+    width: 35vh;
+    background: #e15f4e;
+    color: white;
+    border-style: none;
+    
+}
+
+form #name:focus,
+form #password:focus {
+    background: linear-gradient(to top, #ac3025, #cf493a) no-repeat;
+    box-shadow: 0 0 2px 2px #ff8676;
+    border: 3px solid #bf3529;
+    outline: 0;
+    /* border: 0; */
+}
+
+input::placeholder {
+    font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B', sans-serif;
+    color: #ea8d86;
+}
+
+
+
+form button {
+    background: linear-gradient(to top, #cd3f33, #de4f40) no-repeat;
+    margin: 1rem;
+    padding: 1rem;
+    width: 35vh;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    border-style: none;
+    box-shadow: 0 0 3px 1px #8e3024;
+    cursor: pointer;
+    /* border: 1px solid #8b3024; */
+    transition: all 0.2s ease-in-out;
+}
+
+form button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to top, #7d2119, #ab372a) no-repeat;
+    /* border: 1px solid #541911; */
+}
+
+a {
+    color: white;
+    margin-left: 0.2rem;
+}
+
+form div {
+    
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B', sans-serif;
+    font-size: 0.5rem;
+    letter-spacing: 0.05rem;
+    color: #ffa6a0;
+}
+
+#forgot_pass a {
+    color: #ffb7b1;
+}
+
+.fa-lock {
+
+    color: #953124;
+}
+
+span {
+    margin-left: 0.2rem;
+    
+}
+
+#sign_up a {
+    
+    padding: 0 0 2px;
+    border-bottom: 0.1px solid #ffbeb8;
+    /* text-decoration: underline; */
+}
+
+
+#separador {
+    /* margin-left: 2px; */
+    /* margin-right: 2px; */
+    color: transparent;
+    width: 0.05rem;
+    height: 0.4rem;
+    background: #953124;
+    border: 0.1px groove #aa392a;
+    opacity: 0.8;
+}
